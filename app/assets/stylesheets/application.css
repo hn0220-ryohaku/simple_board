@@ -16,8 +16,9 @@
  
  /*フッター、メイン、ヘッダーの位置を合わせてフッターを画面にあわせる*/
 main {
-   min-height: calc(100vh - 120px);
+   min-height: calc(100vh - 60px);
    overflow: hidden;
+   padding-top: 60px;
  }
 
  header {
