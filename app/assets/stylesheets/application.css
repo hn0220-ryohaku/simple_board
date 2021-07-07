@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+ 
+ /*フッター、メイン、ヘッダーの位置を合わせてフッターを画面にあわせる*/
+main {
+   min-height: calc(100vh - 120px);
+   overflow: hidden;
+ }
+
+ header {
+   height: 60px;
+ }
+
+ footer {
+   height: 60px;
+ }
